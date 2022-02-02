@@ -16,5 +16,6 @@ Helpers for Development (Tools, Software, Helpers)
 | Windows   | Description        |
 | WSL2   | Description        |
 | PhpStorm   | Description        |
-| Terminal   | Terminal, Powershell, ConEmu, CMDer        |
+| Terminal   | Terminal, Powershell, ConEmu, CMDer     |
+| General   | Description     |
 
