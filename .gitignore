@@ -1,0 +1,107 @@
+# ignore backup plugins just in case
+app/p/wp-migrate-db-pro/
+app/p/wp-migrate-db/
+app/mp/wp-migrate-db-pro-compatibility.php
+app/p/backupbuddy/
+app/p/wp-sync-db/
+app/p/acf-theme-code-pro/
+app/u/backupbuddy/
+app/u/wp-migrate-db/
+app/u/wp-migrate-db-pro/
+# Extras per Project
+# Root
+/*
+/.htaccess
+!dev
+#!app/
+!.babelrc
+!.gitignore
+!.browserlist
+!tailwind.config.js
+!webpack.mix.js
+!webpack.js
+!webpack.config.js
+!gulpfile.js
+!license.txt
+!nginx.conf
+!package.json
+!package-lock.json
+!postcss.config.js
+!readme.md
+!debug.log
+
+# ignore everything in the "wp-content" directory, except:
+# "mu-plugins", "plugins", "themes" directory
+# change if you need "uploads" etc. folders
+!app/
+app/*
+#themes
+!app/t/
+!app/t/*
+#mu plugins
+!app/mp/
+app/u/*
+!app/u/2021/
+!app/u/2021/*
+#!app/mp/*
+
+
+# CONFIGS #
+.idea/
+wiki
+.env
+.ftpconfig
+.remote-sync.json
+remote-sync.json
+.sftp.json
+sftp.json
+deployment.json
+ftpsyn.settings
+sftp-config.json
+
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Exclude any PSD/AI source
+*.psd
+*.ai
+*.eps
+*.figma
+*.sketch
