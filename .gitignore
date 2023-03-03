@@ -29,7 +29,8 @@ app/u/wp-migrate-db-pro/
 !postcss.config.js
 !readme.md
 !debug.log
-
+!tailwind
+!Hubspot
 # ignore everything in the "wp-content" directory, except:
 # "mu-plugins", "plugins", "themes" directory
 # change if you need "uploads" etc. folders
