@@ -1,6 +1,9 @@
 # Development-Helpers
 Helpers for Development (Tools, Software, Helpers)
 
+MOVED: https://github.com/apsolut/helpers 
+
+
 
 | Main      | Description |
 | ----------- | ----------- |
